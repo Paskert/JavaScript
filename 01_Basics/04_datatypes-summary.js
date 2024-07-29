@@ -24,3 +24,25 @@ const myFunc = function(){
 }
 
 console.log(typeof myObj)
+
+// -------------------------------------------------------------------------------------------
+
+// Stak (Primitive), Heap (Non-Primitive)
+//stack gives copy by value and Heap gives copy by refrence
+
+let stone = "Pratham"
+let sttwo = stone
+sttwo = "Priyansh"
+console.log(stone)
+console.log(sttwo)
+
+let myobjone = {
+    name : "Pratham",
+    age : 21
+}
+
+let myobjtwo = myobjone
+myobjtwo.name = "Priyansh"
+
+console.log(myobjone.name)
+console.log(myobjtwo.name)
