@@ -47,3 +47,19 @@ console.log (++num2)
 
 // prefix and postfix opperators
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+
+console.log("-----")
+
+console.log(null > 0) //false
+console.log(null == 0) //false
+console.log(null >= 0) //true
+
+// here comparision operator (<,>,<=,>=) converts null to 0 and then checks it
+// while == does not 
+
+// console.log(undefined > 0) //false
+// console.log(undefined < 0) //false
+// console.log(undefined == 0) //false
+// console.log(undefined >= 0) //false
+
+console.log("2" === 2) // === this is strict check which also checks the data type 
